@@ -7,6 +7,8 @@ export default function cleanSet(set, startString) {
       string += `${reelement}-`;
     }
   }
-  string = string.slice(0, -1);
+  if (string !== '') {
+    string = string.slice(0, -1);
+  }
   return string;
 }
