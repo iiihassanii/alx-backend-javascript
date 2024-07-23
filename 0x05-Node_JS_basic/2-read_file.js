@@ -53,7 +53,7 @@ function parseDatabase(data) {
  * Counts the number of students in each field from a database file and logs the result.
  * @param {string} path - The path to the database file.
  * @throws {Error} If the database cannot be loaded.
- */
+*/
 function countStudents(path) {
   try {
     const data = readDatabase(path);
